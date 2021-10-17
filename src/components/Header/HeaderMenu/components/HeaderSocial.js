@@ -19,7 +19,7 @@ const HeaderSocial = ({ className, t, social }) => {
 			className={className}
 			title={isMobile ? t("header.social") : ""}
 			uuid="header"
-			size={isMobile ? "40" : "30"}
+			size={"20"}
 			distance="9px"
 			fill="#000000"
 			socialList={social}
@@ -37,7 +37,6 @@ export default withTranslation("common")(styled(HeaderSocial)`
 	display: flex;
 	justify-content: space-between;
 	width: fit-content;
-	margin: auto;
 	margin-top: ${styles.container_margin_large};
 
 	@media only screen and (min-width: ${styles.breakpoint_large}) {

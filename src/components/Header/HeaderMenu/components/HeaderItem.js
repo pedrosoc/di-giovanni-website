@@ -25,7 +25,7 @@ HeaderItem.propTypes = {
 export default styled(HeaderItem)`
 	text-decoration: none;
     color: #000;
-	font-weight: 500;
+	font-weight: 600;
     margin-bottom: 15px;
 
 	@media only screen and (min-width: ${styles.breakpoint_large}) {

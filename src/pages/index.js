@@ -21,15 +21,15 @@ const Home = ({ t, contents, categories }) => {
     return (
 		<Fragment>
 			<MetaHeader meta={routes.home.meta} />
-            <Header categories={categories} social={social} />
+            <Header relative categories={categories} social={social} />
 
 			<Section first backgroundImage={images.background}>
 				<HomeBanner />
 			</Section>
 
-			<Section>
+			{/*<Section>
 				<FullContentResume contents={contents} />
-			</Section>
+            </Section>*/}
 
 			<Footer />
 		</Fragment>

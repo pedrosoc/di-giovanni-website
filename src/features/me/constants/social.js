@@ -1,5 +1,5 @@
 export default [
-	{
+	/*{
 		name: "youtube",
 		url: "https://www.youtube.com/user/macacadareunida1900"
 	},
@@ -18,9 +18,9 @@ export default [
 	{
 		name: "twitter",
 		url: "https://twitter.com/macacastaapp"
-	},
+	},*/
 	{
-		name: "twitch",
-		url: "https://www.twitch.tv/macacast_oficial"
+		name: "phone",
+		url: "https://google.com.br"
 	},
 ];

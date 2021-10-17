@@ -4,24 +4,24 @@
         "closeSymbol": "X",
         "home": "Início",
         "about": "Sobre",
-        "social": "Acompanhe o Macacast em:"
+        "social": "Contato"
     },
     "footer": {
-        "copyright": "© Copyright 2020",
-        "title": "Macacast - O podcast da maior do interior"
+        "copyright": "© Copyright 2021",
+        "title": "Di Giovanni - Sociedade de Advogados"
     },
     "home": {
         "title": "DI GIOVANNI",
         "subtitle": "O PODCAST DA MAIOR DO INTERIOR",
         "altImage": "Logo - Macacast",
         "meta": {
-            "title": "Macacast",
+            "title": "Início | Di Giovanni",
             "description": "O podcast da maior do Interior. Pré-jogo, Pós-jogo, Resenhas, Entrevistas e muito mais da Ponte Preta, a nossa macaca querida de Campinas.",
             "keywords": "Ponte Preta, Podcast, Campinas, Ponte, Macaca, Maior do Interior, Entrevista, Resenha"
         }
     },
     "about": {
-        "title": "Sobre o projeto",
+        "title": "Sobre Di Giovanni",
         "description": "Nascido em 2019, o projeto de um podcast criado por pontepretanos para pontepretanos tem um objetivo primordial claro: resgatar o interesse dos torcedores e torcedoras pelo clube, com informações quentes, com opiniões isentas e contundentes, com histórias sobre o seu passado e reforçar a identidade da Ponte Preta. O dia a dia do clube, pós e pré-jogo, entrevistas exclusivas com jogadores que marcaram seu nome em nossa história e até bastidores políticos. O Macacast é a voz do pontepretano das arquibancadas na internet.",
         "help": {
             "title": "Ajude o projeto",
@@ -37,13 +37,13 @@
             "sponsor": "Se você deseja ser um parceiro do projeto, entre em contato conosco por meio de nossas plataformas digitais. Temos certeza de que, com a audiência que temos, a parceria renderá muitos frutos para sua empresa."
         },
         "meta": {
-            "title": "Sobre | Macacast",
+            "title": "Sobre | Di Giovanni",
             "description": "O podcast da maior do Interior. Pré-jogo, Pós-jogo, Resenhas, Entrevistas e muito mais da Ponte Preta, a nossa macaca querida de Campinas.",
             "keywords": "Ponte Preta, Podcast, Campinas, Ponte, Macaca, Maior do Interior, Entrevista, Resenha"
         }
     },
     "contentPost": {
-        "avaiableFor": "Disponível também em:",
+        "avaiableFor": "Entrar em contato:",
         "meta": {
             "title": "{{title}} | Macacast",
             "description": "{{description}}",

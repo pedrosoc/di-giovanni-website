@@ -24,6 +24,7 @@ const SocialIcons = ({ className, uuid, title, size, distance, fill, socialList 
 					<SVG name={s.name} width={size} fill={fill} />
 				</a>
 				)}
+                <span>(19) 3296-0715</span>
 			</div>
 		</div>
 	);
@@ -47,12 +48,22 @@ export default styled(SocialIcons)`
 		margin-bottom: ${props => props.title ? "20px" : "0"};
 	}
 
+	& > div a {
+        position: relative;
+        top: 1px;
+	}
+
 	& > div {
+        display: flex;
 		height: ${props => `${props.size}px`};
 	}
 
 	& > div > * {
 		margin-right: ${props => `${props.distance}`};
+	}
+
+    & > div > span {
+		font-weight: 600;
 	}
 
 	& > div > *:last-child {

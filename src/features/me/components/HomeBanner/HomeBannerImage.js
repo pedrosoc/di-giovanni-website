@@ -8,7 +8,11 @@ import { withTranslation } from "@i18n";
 import images from "@/constants/images";
 
 const HomeBannerImage = ({ className, t }) => {
-	return (
+	if (!images.newLogo) {
+        return null;
+    }
+    
+    return (
 		<img
 			src={images.newLogo}
 			alt={t("home.altImage")}

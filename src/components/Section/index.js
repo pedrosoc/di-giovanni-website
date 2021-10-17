@@ -30,7 +30,8 @@ export default styled(Section)`
 
     background-image: ${props => props.backgroundImage ? `url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 20%;
 
     margin: ${props => props.first ? 0 : styles.container_margin_medium} 0 ${styles.container_margin_medium};
 

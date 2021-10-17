@@ -25,6 +25,9 @@ Header.propTypes = {
 };
 
 export default styled(Header)`
+    position: ${props => props.relative ? "absolute" : "static"};
+    width: 100%;
+
 	font-family: "Poppins", sans-serif;
-	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: ${props => !props.relative ? "0 4px 12px 0 rgba(0, 0, 0, 0.05)" : "0 0 0 0"};
 `;

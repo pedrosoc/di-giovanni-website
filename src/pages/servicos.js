@@ -14,7 +14,7 @@ import { withTranslation } from "@i18n";
 import routes from "@/constants/routes";
 import social from "@/features/me/constants/social";
 
-const About = ({ className, t, categories }) => {
+const Servicos = ({ className, t, categories }) => {
 	return (
 		<Fragment>
 			<MetaHeader meta={routes.about.meta} />
@@ -23,7 +23,7 @@ const About = ({ className, t, categories }) => {
 			<Section first type={containerTypes.text}>
 				<div className={className}>
 					<div>
-						<h5>{t("about.title")}</h5>
+						<h5>Serviços oferecidos</h5>
 						{/*<p>{t("about.description")}</p>*/}
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus massa diam, eget malesuada sem dictum sit amet. In feugiat ex eu eros ornare hendrerit. Nam eu auctor leo, eget tristique magna. Cras et augue quam. Integer posuere massa nec urna lobortis mollis. Integer lacinia quis sapien a finibus. Curabitur blandit, quam in pellentesque dapibus, dolor tellus luctus metus, eget tristique odio risus pellentesque orci. Nulla vitae vestibulum purus. Proin enim ex, vulputate vel nunc nec, interdum tempor lorem. Maecenas et finibus lectus. Ut rhoncus fermentum pretium. Morbi sollicitudin dui hendrerit justo suscipit, id hendrerit tellus euismod.</p>
 					</div>
@@ -56,7 +56,7 @@ const About = ({ className, t, categories }) => {
 	);
 };
 
-About.propTypes = {
+Servicos.propTypes = {
 	className: PropTypes.string,
 	t: PropTypes.func,
     categories: PropTypes.array
@@ -67,7 +67,7 @@ export const getStaticProps = async () => {
 }
 
 
-export default withTranslation("common")(styled(About)`
+export default withTranslation("common")(styled(Servicos)`
 	& h5 {
 		font-size: 35px;
 	}
