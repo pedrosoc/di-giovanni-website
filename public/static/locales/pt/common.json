@@ -12,17 +12,17 @@
     },
     "home": {
         "title": "DI GIOVANNI",
-        "subtitle": "O PODCAST DA MAIOR DO INTERIOR",
-        "altImage": "Logo - Macacast",
+        "subtitle": "Sociedade de Advogados",
+        "altImage": "Logo - Di Giovanni",
         "meta": {
             "title": "Início | Di Giovanni",
-            "description": "O podcast da maior do Interior. Pré-jogo, Pós-jogo, Resenhas, Entrevistas e muito mais da Ponte Preta, a nossa macaca querida de Campinas.",
-            "keywords": "Ponte Preta, Podcast, Campinas, Ponte, Macaca, Maior do Interior, Entrevista, Resenha"
+            "description": "Di Giovanni",
+            "keywords": "Advogado, Justiça"
         }
     },
     "about": {
         "title": "Sobre Di Giovanni",
-        "description": "Nascido em 2019, o projeto de um podcast criado por pontepretanos para pontepretanos tem um objetivo primordial claro: resgatar o interesse dos torcedores e torcedoras pelo clube, com informações quentes, com opiniões isentas e contundentes, com histórias sobre o seu passado e reforçar a identidade da Ponte Preta. O dia a dia do clube, pós e pré-jogo, entrevistas exclusivas com jogadores que marcaram seu nome em nossa história e até bastidores políticos. O Macacast é a voz do pontepretano das arquibancadas na internet.",
+        "description": "Sociedade de Advogados",
         "help": {
             "title": "Ajude o projeto",
             "description": "Se você curte o nosso trabalho, não deixe de nos prestigiar e ajude a melhorar ainda mais a qualidade do seu podcast preferido e a sua experiência como ouvinte. Fazemos o Macacast com muita paixão e, com as doações, podemos fazer ainda melhor e nos dedicar ainda mais ao projeto. O valor será investido na melhoria de materiais, como a compra de microfones para os membros, pagamento de servidores, gravações, e manutenção de outras estruturas.",
@@ -38,8 +38,8 @@
         },
         "meta": {
             "title": "Sobre | Di Giovanni",
-            "description": "O podcast da maior do Interior. Pré-jogo, Pós-jogo, Resenhas, Entrevistas e muito mais da Ponte Preta, a nossa macaca querida de Campinas.",
-            "keywords": "Ponte Preta, Podcast, Campinas, Ponte, Macaca, Maior do Interior, Entrevista, Resenha"
+            "description": "Di Giovanni",
+            "keywords": "Advogado, Justiça"
         }
     },
     "contentPost": {

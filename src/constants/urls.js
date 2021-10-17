@@ -1,6 +1,6 @@
 const urls = {
     website: {
-        baseUrl: "https://macacast.com.br"
+        baseUrl: "https://di-giovanni-website.vercel.app"
     },
     gallery: {
         baseUrl: "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o"

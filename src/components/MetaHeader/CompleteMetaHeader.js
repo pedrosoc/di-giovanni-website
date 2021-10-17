@@ -43,17 +43,17 @@ const CompleteMetaHeader = ({ t, meta, content }) => (
         <meta property="og:image" content={meta.image(content)} />
         <meta property="og:image:alt" content={meta.title(t, content)} />
         <meta property="og:locale" content="pt_BR" />
-        <meta property="og:site_name" content="Macacast" />
+        <meta property="og:site_name" content="Di Giovanni - Sociedade de Advogados" />
         <meta property="og:type" content="website" />
 
-        <meta name="twitter:card" content="summary_large_image" />
+        {/*<meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@macacastaapp" />
         <meta name="twitter:creator" content="@macacastaapp" />
         <meta name="twitter:title" content={meta.title(t, content)} />
         <meta name="twitter:description" content={meta.description(t, content)} />
         <meta name="twitter:image" content={meta.image(content)} />
 
-        <meta property="fb:app_id" content="612818166073904" />
+<meta property="fb:app_id" content="612818166073904" />*/}
     </Head>
 );
 
