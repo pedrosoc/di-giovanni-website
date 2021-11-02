@@ -27,7 +27,6 @@ export default styled(ContentCardInfoHeader)`
     display: flex;
     flex-direction: column;
     color: #000;
-    height: 74px;
 
     & h3 {
         font-size: 18px;

@@ -6,9 +6,9 @@ import styled from "styled-components";
 import Container from "./Container";
 import styles from "@/constants/styles";
 
-const Section = ({ className, colored, backgroundImage, type, children }) => {
+const Section = ({ className, colored, backgroundImage, type, children, styleA }) => {
 	return (
-		<div className={className}>
+		<div className={className} style={styleA}>
 			<Container type={type}>
 				{children}
 			</Container>
@@ -21,11 +21,12 @@ Section.propTypes = {
 	children: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
 	colored: PropTypes.string,
     backgroundImage: PropTypes.string,
-	type: PropTypes.string
+	type: PropTypes.string,
+    styleA: PropTypes.object
 };
 
 export default styled(Section)`
-    height: 500px;
+    height: ${props => props.first ? "500px" : "auto"};
     background-color: ${props => props.colored ? props.colored : "transparent"};
 
     background-image: ${props => props.backgroundImage ? `url("${props.backgroundImage}")` : "transparent"};

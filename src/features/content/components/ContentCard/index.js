@@ -38,9 +38,10 @@ export default styled(ContentCard)`
     border-radius: 5px;
     font-size: 14px;
     text-decoration: none;
-
+    
 	@media only screen and (min-width: ${styles.breakpoint_medium}) {
-    	width: ${props => props.spotlight ? "49%" : "215px"};
+        width: ${props => props.spotlight ? "49%" : "215px"};
+        margin-bottom: 0px;
 	}
 
 	@media only screen and (min-width: ${styles.breakpoint_large}) {

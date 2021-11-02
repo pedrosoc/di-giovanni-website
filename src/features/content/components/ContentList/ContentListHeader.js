@@ -19,7 +19,9 @@ const ContentListHeader = ({ className, t, title, link }) => {
 			</div>
 		);
         
-	return <h4 className={className}>{title}</h4>
+	return title ? 
+        (<h4 className={className}>{title}</h4>)
+        : ""
 }
 
 ContentListHeader.propTypes = {
