@@ -43,10 +43,7 @@ const Home = ({ className, t, contents, categories }) => {
                             A Di Giovanni é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
                         </span>
                     </div>
-
-                    <input 
-                        type="button"
-                        value="Conheça nossos serviços"
+                    <div 
                         style={{
                             borderColor: "#000",
                             backgroundColor: "#000",
@@ -56,8 +53,13 @@ const Home = ({ className, t, contents, categories }) => {
                             padding: "15px 20px",
                             borderRadius: "50px",
                             cursor: "pointer",
+                            margin: "0 auto 40px",
+                            width: "fit-content",
+                            fontSize: "14px"
                         }}
-                    />
+                    >
+                        Conheça nossos serviços
+                    </div>
                 </div>
             </Section>
             
@@ -115,9 +117,7 @@ const Home = ({ className, t, contents, categories }) => {
                             </span>
                         </div>
 
-                        <input 
-                            type="button"
-                            value="Conheça nossos sócios"
+                        <div 
                             style={{
                                 borderColor: "#000",
                                 backgroundColor: "#000",
@@ -127,9 +127,13 @@ const Home = ({ className, t, contents, categories }) => {
                                 padding: "15px 20px",
                                 borderRadius: "50px",
                                 cursor: "pointer",
-                                marginBottom: "40px"
+                                marginBottom: "40px",
+                                width: "fit-content",
+                                fontSize: "14px"
                             }}
-                        />
+                        >
+                            Conheça nossos sócios
+                        </div>
                     </div>
                     <div className="socios2">
                         <img src={img2} style={{ width: "100%" }} />
