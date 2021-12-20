@@ -26,13 +26,13 @@ Section.propTypes = {
 };
 
 export default styled(Section)`
-    height: ${props => props.first ? "500px" : "auto"};
+    height: ${props => props.backgroundImage ? "500px" : "auto"};
     background-color: ${props => props.colored ? props.colored : "transparent"};
 
     background-image: ${props => props.backgroundImage ? `url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;
     background-position-x: center;
-    background-position-y: 20%;
+    background-position-y: 30%;
 
     margin: ${props => props.first ? 0 : styles.container_margin_medium} 0 ${styles.container_margin_medium};
 

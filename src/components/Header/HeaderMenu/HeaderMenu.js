@@ -1,14 +1,19 @@
 import React, { Fragment } from "react";
 
-import MediaQuery from "react-responsive";
+import MediaQuery, { useMediaQuery }  from "react-responsive";
 import PropTypes from "prop-types";
 
 import styles from "@/constants/styles";
 
 import HeaderMenuMobile from "./mobile/HeaderMenuMobile";
 import HeaderMenuDesktop from "./desktop/HeaderMenuDesktop";
+import ContentDetailsInfoTitle from "@/features/content/components/ContentDetails/ContentDetailsSerie/ContentDetailsInfo/ContentDetailsInfoTitle";
 
 const HeaderMenu = ({ contents, social }) => {
+    const isMobile = useMediaQuery({
+		query: `(max-device-width: 800px)`
+	});
+    console.log(isMobile);
 	return (
 		<Fragment>
 			<MediaQuery maxDeviceWidth={styles.breakpoint_large_max}>

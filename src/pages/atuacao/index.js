@@ -13,20 +13,21 @@ import { withTranslation } from "@i18n";
 
 import routes from "@/constants/routes";
 import social from "@/features/me/constants/social";
+import ContentList from "@/features/content/components/ContentList";
+import services from "@/constants/services";
 
-const About = ({ className, t, categories }) => {
+const Servicos = ({ className, t, categories }) => {
 	return (
 		<Fragment>
-			<MetaHeader meta={routes.about.meta} />
+			<MetaHeader meta={routes.services.meta} />
             <Header categories={categories} social={social} />
 
 			<Section first type={containerTypes.text}>
 				<div className={className}>
-					<div>
-						<h5>{t("about.title")}</h5>
-						{/*<p>{t("about.description")}</p>*/}
-						<p>A empresa Di Giovanni Sociedade De Advogados que tem como razão social Di Giovanni Sociedade De Advogados foi fundada em 18/09/2017 e está cadastrada na Solutudo no segmento de Advocacias com o CNPJ 28.702.861/0001-30. No mercado, a empresa está localizada no Edifício Easy Office, Rua Barata Ribeiro, nº 79 - Sala 1106, no bairro Vila Itapura, Campinas - SP, 13015-097. A empresa Di Giovanni Sociedade De Advogados está cadastrada na Receita Federal sob o CNAE 6911-7/01 com atividade fim de Serviços Advocatícios.</p>
-					</div>
+                    <h5>Nossa atuação</h5>
+                    {/*<p>{t("about.description")}</p>*/}
+                    <p>A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo.</p>
+                    <ContentList posts={services} max={2} />
                     {/*<div className="second">
 						<h4>{t("about.help.sponsorTitle")}</h4>
 						<p>{t("about.help.sponsor")}</p>
@@ -56,7 +57,7 @@ const About = ({ className, t, categories }) => {
 	);
 };
 
-About.propTypes = {
+Servicos.propTypes = {
 	className: PropTypes.string,
 	t: PropTypes.func,
     categories: PropTypes.array
@@ -67,7 +68,7 @@ export const getStaticProps = async () => {
 }
 
 
-export default withTranslation("common")(styled(About)`
+export default withTranslation("common")(styled(Servicos)`
 	& h5 {
 		font-size: 35px;
 	}

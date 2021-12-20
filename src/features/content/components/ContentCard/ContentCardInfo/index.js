@@ -20,10 +20,15 @@ ContentCardInfo.propTypes = {
 	title: PropTypes.string,
 	author: PropTypes.string,
 	episode: PropTypes.string,
-	description: PropTypes.string
+	description: PropTypes.string,
+    type: PropTypes.string,
 };
 
 export default styled(ContentCardInfo)`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 20px;
     width: 100%;
+    height: ${props => props.type === "text" ? "100%" : "auto"};
 `;

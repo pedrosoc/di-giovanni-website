@@ -14,7 +14,8 @@ const HeaderItems = ({ className, t, contents, closeModal }) => {
 		<div className={className}>
 			<HeaderItem closeModal={closeModal} to={routes.home.url} title={routes.home.title(t)} />
             {contents.map(c => (<HeaderItem key={c.id} to={c.route} title={c.name} closeModal={closeModal} />))}
-			<HeaderItem closeModal={closeModal} to={"/servicos"} title={"Serviços"} />
+			<HeaderItem closeModal={closeModal} to={"/atuacao"} title={"Atuação"} />
+			<HeaderItem closeModal={closeModal} to={"/socios"} title={"Sócios"} />
 			<HeaderItem closeModal={closeModal} to={routes.about.url} title={routes.about.title(t)} />
 		</div>
 	);

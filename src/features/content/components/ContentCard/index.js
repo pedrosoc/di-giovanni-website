@@ -15,6 +15,13 @@ const ContentCard = ({ className, post, spotlight }) => {
 	if (!post)
 		return <Fragment />
 
+    if (post.type === "text")
+        return (
+            <div className={className}>
+                <ContentCardInfo title={post.title} type={post.type} author={post.author} episode={post.episode} description={post.description} />
+            </div>
+        );
+
 	return (
 		<Link href={post.route}>
 			<a className={className}>
@@ -28,23 +35,25 @@ const ContentCard = ({ className, post, spotlight }) => {
 ContentCard.propTypes = {
 	className: PropTypes.string,
 	post: PropTypes.object,
-	spotlight: PropTypes.bool
+	spotlight: PropTypes.bool,
+    max: PropTypes.number
 };
 
 export default styled(ContentCard)`
 	width: 100%;
     margin-bottom: 50px;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    box-shadow: ${props => props.post.type === "text" ? "0" : "0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5"};
     border-radius: 5px;
     font-size: 14px;
     text-decoration: none;
+    text-align: initial;
     
 	@media only screen and (min-width: ${styles.breakpoint_medium}) {
-        width: ${props => props.spotlight ? "49%" : "215px"};
-        margin-bottom: 0px;
+        width: ${props => props.spotlight ? "49%" : props.max == 2 ? "329px" : "215px"};
+        margin-bottom: 20px;
 	}
 
 	@media only screen and (min-width: ${styles.breakpoint_large}) {
-    	width: ${props => props.spotlight ? "49%" : "370px"};
+    	width: ${props => props.spotlight ? "49%" : props.max == 2 ? "325px" : "370px"};
 	}
 `;

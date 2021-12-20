@@ -14,18 +14,18 @@ import { withTranslation } from "@i18n";
 import routes from "@/constants/routes";
 import social from "@/features/me/constants/social";
 
-const Servicos = ({ className, t, categories }) => {
+const About = ({ className, t, categories }) => {
 	return (
 		<Fragment>
-			<MetaHeader meta={routes.about.meta} />
+			<MetaHeader meta={routes.adms.meta} />
             <Header categories={categories} social={social} />
 
 			<Section first type={containerTypes.text}>
 				<div className={className}>
 					<div>
-						<h5>Serviços oferecidos</h5>
+						<h5>{t("adms.title")}</h5>
 						{/*<p>{t("about.description")}</p>*/}
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus massa diam, eget malesuada sem dictum sit amet. In feugiat ex eu eros ornare hendrerit. Nam eu auctor leo, eget tristique magna. Cras et augue quam. Integer posuere massa nec urna lobortis mollis. Integer lacinia quis sapien a finibus. Curabitur blandit, quam in pellentesque dapibus, dolor tellus luctus metus, eget tristique odio risus pellentesque orci. Nulla vitae vestibulum purus. Proin enim ex, vulputate vel nunc nec, interdum tempor lorem. Maecenas et finibus lectus. Ut rhoncus fermentum pretium. Morbi sollicitudin dui hendrerit justo suscipit, id hendrerit tellus euismod.</p>
+						<p>Conheça Ricardo Di Giovanni e Elaine Di Giovanni, os sócios fundadores dessa bem sucedida socidade de advogados. Se quiser conhecer mais sobre a sociedade, alguma especialidade ou realizar algum orçamento, entre em contato pelo telefone ou diretamento no e-mail de algum dos sócios abaixo.</p>
 					</div>
                     {/*<div className="second">
 						<h4>{t("about.help.sponsorTitle")}</h4>
@@ -56,7 +56,7 @@ const Servicos = ({ className, t, categories }) => {
 	);
 };
 
-Servicos.propTypes = {
+About.propTypes = {
 	className: PropTypes.string,
 	t: PropTypes.func,
     categories: PropTypes.array
@@ -67,7 +67,7 @@ export const getStaticProps = async () => {
 }
 
 
-export default withTranslation("common")(styled(Servicos)`
+export default withTranslation("common")(styled(About)`
 	& h5 {
 		font-size: 35px;
 	}

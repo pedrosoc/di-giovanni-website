@@ -19,6 +19,7 @@ import images from "@/constants/images";
 import ContentList from "@/features/content/components/ContentList";
 import styled from "styled-components";
 import styles from "@/constants/styles";
+import services from "@/constants/services";
 
 const img = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-sora-shimazaki-5668494-min%20(1).jpg?alt=media&token=92000055-f85d-4226-b879-6b272891af7d";
 const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-august-de-richelieu-4427430-min%20(1).jpg?alt=media&token=1f97ae32-d68d-4680-a5a0-35450476c303";
@@ -28,7 +29,7 @@ const Home = ({ className, t, contents, categories }) => {
     return (
 		<div className={className}>
 			<MetaHeader meta={routes.home.meta} />
-            <Header relative categories={categories} social={social} />
+            <Header categories={categories} social={social} />
 
 			<Section first backgroundImage={images.background}>
 				<HomeBanner />
@@ -40,7 +41,7 @@ const Home = ({ className, t, contents, categories }) => {
                     <h1 style={{ marginBottom: "15px" }}>Confiança, transparência e excelência</h1>
                     <div style={{ maxWidth: "620px", margin: "15px auto 40px" }}>
                         <span>
-                            A Di Giovanni é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
+                            A Di Giovanni (CNPJ 28.702.861/0001-30) é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
                         </span>
                     </div>
                     <div 
@@ -77,32 +78,10 @@ const Home = ({ className, t, contents, categories }) => {
                     <h1 style={{ marginBottom: "15px" }}>Nossas especialidades</h1>
                     <div style={{ maxWidth: "620px", margin: "15px auto 40px" }}>
                         <span>
-                            A Di Giovanni é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
+                            A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo. 
                         </span>
                     </div>
-                    <ContentList posts={[
-                        {
-                            id: "1",
-                            route: "",
-                            img: img,
-                            title: "Tributário",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et orci luctus, pellentesque ipsum at, pulvinar dolor. Praesent interdum odio quis massa venenatis dapibus. Vivamus eu dignissim ex, nec malesuada purus."
-                        },
-                        {
-                            id: "2",
-                            route: "",
-                            img: img,
-                            title: "Societário",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et orci luctus, pellentesque ipsum at, pulvinar dolor. Praesent interdum odio quis massa venenatis dapibus. Vivamus eu dignissim ex, nec malesuada purus."
-                        },
-                        {
-                            id: "3",
-                            route: "",
-                            img: img,
-                            title: "Contratual",
-                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et orci luctus, pellentesque ipsum at, pulvinar dolor. Praesent interdum odio quis massa venenatis dapibus. Vivamus eu dignissim ex, nec malesuada purus."
-                        },
-                    ]}/>
+                    <ContentList posts={services}/>
                 </div>
             </Section>
 
@@ -113,7 +92,7 @@ const Home = ({ className, t, contents, categories }) => {
                         <h1 style={{ marginBottom: "15px" }}>Nossos sócios</h1>
                         <div style={{ maxWidth: "400px", margin: "15px auto 40px" }}>
                             <span>
-                                A Di Giovanni é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
+                                Conheça Ricardo e Elaine, os sócios fundadores da bem sucedida socidade de advogados, Di Giovanni. 
                             </span>
                         </div>
 
@@ -148,11 +127,10 @@ const Home = ({ className, t, contents, categories }) => {
                         <h1 style={{ marginBottom: "15px" }}>Contato</h1>
                         <div style={{ maxWidth: "400px", margin: "15px auto 40px" }}>
                             <p>
-                                Rua Barata Ribeiro, 79 - Sala 1106, Edifício Easy Office - 
-                                Vila Itapura, Campinas (SP) CEP: 13015-097
+                                <b>Endereço:</b> Edifício Easy Office - R. Barata Ribeiro, 79 - Sala 1106 - Vila Itapura, Campinas - SP, 13015-097
                             </p>
                             <p>
-                                Telefone: (19) 3296-0715
+                                <b>Telefone:</b> (19) 3296-0715
                             </p>
                         </div>
                     </div>

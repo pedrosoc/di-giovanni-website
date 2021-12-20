@@ -22,7 +22,7 @@ const SocialShare = ({ url, title, iconSize }) => {
 	
 	return (
 		<Fragment>
-			<FacebookShareButton url={url} quote={`${title} - @macacastpodcast`}>
+			<FacebookShareButton url={url} quote={title}>
                 <FacebookIcon size={iconSize} round />
             </FacebookShareButton>
             <FacebookMessengerShareButton appId={"612818166073904"} url={url}>
@@ -31,7 +31,7 @@ const SocialShare = ({ url, title, iconSize }) => {
             <TelegramShareButton url={url} title={title}>
                 <TelegramIcon size={iconSize} round />
             </TelegramShareButton>
-            <TwitterShareButton url={url} title={`${title} - @macacastaapp`} related={["@macacastaapp"]}>
+            <TwitterShareButton url={url} title={title}>
                 <TwitterIcon size={iconSize} round />
             </TwitterShareButton>
             <WhatsappShareButton url={url} title={title}>

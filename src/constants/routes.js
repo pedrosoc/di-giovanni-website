@@ -28,23 +28,29 @@ export default {
 			icon: images.favicon
 		}
 	},
-	content: {
+	services: {
+		url: "/atuacao",
+		title: t => t("header.services"),
 		meta: {
-			title: (t, opt) => t("content.meta.title", opt),
-			description: (t, opt) => t("content.meta.description", opt),
-			keywords: (t, opt) => t("content.meta.keywords", opt),
-			url: opt => `${urls.website.baseUrl}${opt.baseRoute}`,
+			title: t => t("services.meta.title"),
+			description: t => t("services.meta.description"),
+			keywords: t => t("services.meta.keywords"),
+			socialTitle: () => "",
+			url: () => `${urls.website.baseUrl}/sobre`,
 			image: () => images.social,
 			icon: images.favicon
 		}
 	},
-	contentPost: {
+	adms: {
+		url: "/socios",
+		title: t => t("header.adms"),
 		meta: {
-			title: (t, opt) => t("contentPost.meta.title", opt),
-			description: (t, opt) => t("contentPost.meta.description", opt),
-			keywords: t => t("contentPost.meta.keywords"),
-			url: opt => `${urls.website.baseUrl}${opt.route}`,
-			image: opt => opt.img,
+			title: t => t("adms.meta.title"),
+			description: t => t("adms.meta.description"),
+			keywords: t => t("adms.meta.keywords"),
+			socialTitle: () => "",
+			url: () => `${urls.website.baseUrl}/sobre`,
+			image: () => images.social,
 			icon: images.favicon
 		}
 	},

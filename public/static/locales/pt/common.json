@@ -4,6 +4,8 @@
         "closeSymbol": "X",
         "home": "Início",
         "about": "Sobre",
+        "services": "Atuação",
+        "adms": "Sócios",
         "social": "Contato"
     },
     "footer": {
@@ -16,13 +18,13 @@
         "altImage": "Logo - Di Giovanni",
         "meta": {
             "title": "Início | Di Giovanni",
-            "description": "Di Giovanni",
-            "keywords": "Advogado, Justiça"
+            "description": "A Di Giovanni (CNPJ 28.702.861/0001-30) é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.",
+            "keywords": "Advogado, Direito, Tributário, Societário, Contratual, Gestão, Ricardo, Elaine, Di Giovanni"
         }
     },
     "about": {
         "title": "Sobre Di Giovanni",
-        "description": "Sociedade de Advogados",
+        "description": "A empresa Di Giovanni Sociedade De Advogados que tem como razão social Di Giovanni Sociedade De Advogados foi fundada em 18/09/2017 e está cadastrada na Solutudo no segmento de Advocacias com o CNPJ 28.702.861/0001-30",
         "help": {
             "title": "Ajude o projeto",
             "description": "Se você curte o nosso trabalho, não deixe de nos prestigiar e ajude a melhorar ainda mais a qualidade do seu podcast preferido e a sua experiência como ouvinte. Fazemos o Macacast com muita paixão e, com as doações, podemos fazer ainda melhor e nos dedicar ainda mais ao projeto. O valor será investido na melhoria de materiais, como a compra de microfones para os membros, pagamento de servidores, gravações, e manutenção de outras estruturas.",
@@ -38,8 +40,26 @@
         },
         "meta": {
             "title": "Sobre | Di Giovanni",
+            "description": "A empresa Di Giovanni Sociedade De Advogados que tem como razão social Di Giovanni Sociedade De Advogados foi fundada em 18/09/2017 e está cadastrada na Solutudo no segmento de Advocacias com o CNPJ 28.702.861/0001-30",
+            "keywords": "Advogado, Direito, Tributário, Societário, Contratual, Gestão, Ricardo, Elaine, Di Giovanni"
+        }
+    },
+    "services": {
+        "title": "Atuação",
+        "description": "A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo.",
+        "meta": {
+            "title": "Atuação | Di Giovanni",
+            "description": "A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo.",
+            "keywords": "Advogado, Direito, Tributário, Societário, Contratual, Gestão, Ricardo, Elaine, Di Giovanni"
+        }
+    },
+    "adms": {
+        "title": "Sócios",
+        "description": "Sociedade de Advogados",
+        "meta": {
+            "title": "Sócios | Di Giovanni",
             "description": "Di Giovanni",
-            "keywords": "Advogado, Justiça"
+            "keywords": "Advogado, Direito, Tributário, Societário, Contratual, Gestão, Ricardo, Elaine, Di Giovanni"
         }
     },
     "contentPost": {

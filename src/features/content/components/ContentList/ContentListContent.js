@@ -7,10 +7,10 @@ import ContentCard from "../ContentCard";
 
 import styles from "@/constants/styles";
 
-const ContentListHeader = ({ className, posts }) => {
+const ContentListHeader = ({ className, posts, max }) => {
 	return (
 		<div className={className}>
-			{posts.map(p => <ContentCard key={p.id} post={p} />)}
+			{posts.map(p => <ContentCard key={p.id} post={p} max={max} />)}
 		</div>
 	);
 }
@@ -18,7 +18,8 @@ const ContentListHeader = ({ className, posts }) => {
 ContentListHeader.propTypes = {
 	className: PropTypes.string,
 	title: PropTypes.string,
-	posts: PropTypes.array
+	posts: PropTypes.array,
+    max: PropTypes.number
 };
 
 export default styled(ContentListHeader)`
@@ -37,7 +38,7 @@ export default styled(ContentListHeader)`
         }
     }
 
-    & > a:nth-child(3n) {
+    & > a:nth-child(${props => props.max}n) {
         margin-right: 0;
     }
 `;
