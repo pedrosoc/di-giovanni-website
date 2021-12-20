@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
-import { withTranslation } from "@i18n";
+import { Link, withTranslation } from "@i18n";
 
 import MetaHeader from "@/components/MetaHeader";
 import Header from "@/components/Header";
@@ -44,23 +44,25 @@ const Home = ({ className, t, contents, categories }) => {
                             A Di Giovanni (CNPJ 28.702.861/0001-30) é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
                         </span>
                     </div>
-                    <div 
-                        style={{
-                            borderColor: "#000",
-                            backgroundColor: "#000",
-                            color: "#fff",
-                            fontFamily: "Poppins, sans-serif",
-                            fontWeight: "bold",
-                            padding: "15px 20px",
-                            borderRadius: "50px",
-                            cursor: "pointer",
-                            margin: "0 auto 40px",
-                            width: "fit-content",
-                            fontSize: "14px"
-                        }}
-                    >
-                        Conheça nossos serviços
-                    </div>
+                    <Link href="/atuacao">
+                        <div 
+                            style={{
+                                borderColor: "#000",
+                                backgroundColor: "#000",
+                                color: "#fff",
+                                fontFamily: "Poppins, sans-serif",
+                                fontWeight: "bold",
+                                padding: "15px 20px",
+                                borderRadius: "50px",
+                                cursor: "pointer",
+                                margin: "0 auto 40px",
+                                width: "fit-content",
+                                fontSize: "14px"
+                            }}
+                        >
+                            Conheça nossos serviços
+                        </div>
+                    </Link>
                 </div>
             </Section>
             
@@ -96,23 +98,26 @@ const Home = ({ className, t, contents, categories }) => {
                             </span>
                         </div>
 
-                        <div 
-                            style={{
-                                borderColor: "#000",
-                                backgroundColor: "#000",
-                                color: "#fff",
-                                fontFamily: "Poppins, sans-serif",
-                                fontWeight: "bold",
-                                padding: "15px 20px",
-                                borderRadius: "50px",
-                                cursor: "pointer",
-                                marginBottom: "40px",
-                                width: "fit-content",
-                                fontSize: "14px"
-                            }}
-                        >
-                            Conheça nossos sócios
-                        </div>
+                        <Link href="/socios">
+                            <div 
+                                className="sociosLink"
+                                style={{
+                                    borderColor: "#000",
+                                    backgroundColor: "#000",
+                                    color: "#fff",
+                                    fontFamily: "Poppins, sans-serif",
+                                    fontWeight: "bold",
+                                    padding: "15px 20px",
+                                    borderRadius: "50px",
+                                    cursor: "pointer",
+                                    marginBottom: "40px",
+                                    width: "fit-content",
+                                    fontSize: "14px"
+                                }}
+                            >
+                                Conheça nossos sócios
+                            </div>
+                        </Link>
                     </div>
                     <div className="socios2">
                         <img src={img2} style={{ width: "100%" }} />
@@ -174,6 +179,11 @@ export default withTranslation("common")(styled(Home)`
     
     & .socios1 {
         text-align: center;
+
+        & .sociosLink {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     
     @media only screen and (min-width: ${styles.breakpoint_large}) {
@@ -183,10 +193,12 @@ export default withTranslation("common")(styled(Home)`
         
         & .socios1 {
             text-align: left;
-        }
-        
-        & .socios1 {
             width: 30%;
+
+            & .sociosLink {
+                margin-left: 0;
+                margin-right: 0;
+            }
         }
         
         & .socios2 {
