@@ -28,6 +28,6 @@ export default styled(Header)`
     position: ${props => props.relative ? "absolute" : "static"};
     width: 100%;
 
-	font-family: "Poppins", sans-serif;
+	font-family: Georgia, "URW Bookman L", serif;
 	box-shadow: ${props => !props.relative ? "0 4px 12px 0 rgba(0, 0, 0, 0.05)" : "0 0 0 0"};
 `;

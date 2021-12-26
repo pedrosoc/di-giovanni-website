@@ -1,7 +1,7 @@
 const img4 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-kindel-media-7979442%20(1).jpg?alt=media&token=51f7543c-f0d9-4fda-aa17-7e80b13f4beb";
-const img5 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-olia-danilevich-5313173%20(1).jpg?alt=media&token=0ba4e4af-21da-40fe-a70b-605ace6ee6fe";
+const img5 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-rodnae-productions-7841410.jpg?alt=media&token=ba74a485-f1e3-4ac2-9fa4-c32d2b84f8bb";
 const img6 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-pavel-danilyuk-8112168%20(1).jpg?alt=media&token=956bcd15-3e6b-4f27-8579-2c4514569e10";
-const img7 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-rodnae-productions-7841477%20(1).jpg?alt=media&token=1506ad37-0208-4fc7-ae9f-bddc6b7d0c11";
+const img7 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-rodnae-productions-7841840.jpg?alt=media&token=dc8a2d72-2a40-421d-911c-9be066c99767";
 const img8 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-mikhail-nilov-8730374%20(1).jpg?alt=media&token=8645b4b5-f00d-4757-a2c2-feef687d09c6";
 
 const services = [

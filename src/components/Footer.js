@@ -27,7 +27,7 @@ export default withTranslation("common")(styled(Footer)`
     display: flex;
     flex-direction: column;
 
-	font-family: "Poppins", sans-serif;
+	font-family: Georgia, "URW Bookman L", serif;
     color: #666;
     font-size: 12px;
     

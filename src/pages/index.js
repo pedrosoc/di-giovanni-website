@@ -31,7 +31,7 @@ const Home = ({ className, t, contents, categories }) => {
 			<MetaHeader meta={routes.home.meta} />
             <Header categories={categories} social={social} />
 
-			<Section first backgroundImage={images.background}>
+			<Section first gray backgroundImage={images.background}>
 				<HomeBanner />
 			</Section>
 
@@ -50,7 +50,7 @@ const Home = ({ className, t, contents, categories }) => {
                                 borderColor: "#000",
                                 backgroundColor: "#000",
                                 color: "#fff",
-                                fontFamily: "Poppins, sans-serif",
+                                fontFamily: `Georgia, "URW Bookman L", serif`,
                                 fontWeight: "bold",
                                 padding: "15px 20px",
                                 borderRadius: "50px",
@@ -94,7 +94,7 @@ const Home = ({ className, t, contents, categories }) => {
                         <h1 style={{ marginBottom: "15px" }}>Nossos sócios</h1>
                         <div style={{ maxWidth: "400px", margin: "15px auto 40px" }}>
                             <span>
-                                Conheça Ricardo e Elaine, os sócios fundadores da bem sucedida socidade de advogados, Di Giovanni. 
+                                Conheça Ricardo e Elaine, os sócios fundadores da bem sucedida sociedade de advogados, Di Giovanni. 
                             </span>
                         </div>
 
@@ -105,7 +105,7 @@ const Home = ({ className, t, contents, categories }) => {
                                     borderColor: "#000",
                                     backgroundColor: "#000",
                                     color: "#fff",
-                                    fontFamily: "Poppins, sans-serif",
+                                    fontFamily: `Georgia, "URW Bookman L", serif`,
                                     fontWeight: "bold",
                                     padding: "15px 20px",
                                     borderRadius: "50px",

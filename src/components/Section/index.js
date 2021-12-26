@@ -28,6 +28,7 @@ Section.propTypes = {
 export default styled(Section)`
     height: ${props => props.backgroundImage ? "500px" : "auto"};
     background-color: ${props => props.colored ? props.colored : "transparent"};
+    filter: ${props => props.gray ? "grayscale(1)" : "inherit"};
 
     background-image: ${props => props.backgroundImage ? `url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;

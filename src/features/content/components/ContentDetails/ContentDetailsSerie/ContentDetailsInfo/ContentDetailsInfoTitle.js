@@ -20,7 +20,7 @@ ContentDetailsInfoTitle.propTypes = {
 
 export default styled(ContentDetailsInfoTitle)`
     & h1 {
-		font-family: "Poppins", sans-serif;
+		font-family: Georgia, "URW Bookman L", serif;
         font-size: 42px;
         margin: 0; 
     }

@@ -25,7 +25,7 @@ const About = ({ className, t, categories }) => {
 					<div>
 						<h5>{t("adms.title")}</h5>
 						{/*<p>{t("about.description")}</p>*/}
-						<p>Conheça Ricardo Di Giovanni e Elaine Di Giovanni, os sócios fundadores dessa bem sucedida socidade de advogados. Se quiser conhecer mais sobre a sociedade, alguma especialidade ou realizar algum orçamento, entre em contato pelo telefone ou diretamento no e-mail de algum dos sócios abaixo.</p>
+						<p>Conheça Ricardo Di Giovanni e Elaine Di Giovanni, os sócios fundadores dessa bem sucedida sociedade de advogados. Se quiser conhecer mais sobre a sociedade, alguma especialidade ou realizar algum orçamento, entre em contato pelo telefone ou diretamento no e-mail de algum dos sócios abaixo.</p>
 					</div>
                     {/*<div className="second">
 						<h4>{t("about.help.sponsorTitle")}</h4>
@@ -86,7 +86,7 @@ export default withTranslation("common")(styled(About)`
 	}
 
 	& a {
-		font-family: "Roboto", sans-serif;
+		font-family: Georgia, "URW Bookman L", serif;
 		font-size: 18px;
 		color: #111;
 

@@ -87,7 +87,7 @@ export default withTranslation("common")(styled(Servicos)`
 	}
 
 	& a {
-		font-family: "Roboto", sans-serif;
+		font-family: Georgia, "URW Bookman L", serif;
 		font-size: 18px;
 		color: #111;
 

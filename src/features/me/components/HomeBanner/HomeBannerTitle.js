@@ -26,7 +26,7 @@ export default withTranslation("common")(styled(HomeBannerTitle)`
     flex-direction: column;
     align-items: center;
 
-    font-family: "Poppins", sans-serif;
+    font-family: Georgia, "URW Bookman L", serif;
     color: #fff;
     
     & h2 {
