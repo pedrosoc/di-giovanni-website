@@ -22,7 +22,7 @@ import styles from "@/constants/styles";
 import services from "@/constants/services";
 
 const img = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-sora-shimazaki-5668494-min%20(1).jpg?alt=media&token=92000055-f85d-4226-b879-6b272891af7d";
-const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-august-de-richelieu-4427430-min%20(1).jpg?alt=media&token=1f97ae32-d68d-4680-a5a0-35450476c303";
+const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%202.png?alt=media&token=47c0a9ed-5b8a-4835-b64e-fc3d05dcee32";
 const img3 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Screenshot%20from%202021-11-02%2019-21-58.png?alt=media&token=b5aa717b-09c0-4fef-8743-22355368070e";
 
 const Home = ({ className, t, contents, categories }) => {
