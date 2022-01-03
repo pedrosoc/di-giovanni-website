@@ -32,7 +32,7 @@ export default withTranslation("common")(styled(Footer)`
     font-size: 12px;
     
     padding: ${styles.container_margin_small};
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
 
     @media only screen and (min-width: ${styles.breakpoint_medium}) {
         flex-direction: row;

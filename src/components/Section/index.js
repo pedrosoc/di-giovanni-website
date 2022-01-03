@@ -26,13 +26,13 @@ Section.propTypes = {
 };
 
 export default styled(Section)`
-    height: ${props => props.backgroundImage ? "400px" : "auto"};
+    //height: ${props => props.backgroundImage ? "400px" : "auto"};
     background-color: ${props => props.colored ? props.colored : "transparent"};
-    filter: ${props => props.gray ? "grayscale(1)" : "inherit"};
+    //filter: ${props => props.gray ? "grayscale(1)" : "inherit"};
 
-    background-image: ${props => props.backgroundImage ? `url("${props.backgroundImage}")` : "transparent"};
+    background-image: ${props => props.backgroundImage ? `linear-gradient(to left, rgba(117, 19, 93, 0), rgba(255, 255, 255, 1) 60%), url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;
-    background-position-x: center;
+    background-position-x: 70%;
     background-position-y: 40%;
 
     margin: ${props => props.first ? 0 : styles.container_margin_medium} 0 ${styles.container_margin_medium};

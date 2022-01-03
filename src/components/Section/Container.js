@@ -24,6 +24,9 @@ export default styled(Container)`
     font-size: 18px;
     line-height: 1.3;
 
+    border: ${props => props.border ? "1px solid #000" : ""};
+    border-radius: 10px;
+
     width: ${styles.container_small};
     margin: 0 auto;
     padding: ${styles.container_margin_medium} ${styles.container_margin_small};

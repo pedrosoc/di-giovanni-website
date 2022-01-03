@@ -25,7 +25,7 @@ const ContentCard = ({ className, post, spotlight }) => {
 	return (
 		<Link href={post.route}>
 			<a className={className}>
-				<ContentCardImage spotlight={spotlight} src={post.img} title={post.title} />
+				<ContentCardImage spotlight={spotlight} color={post.color} title={post.title} />
 				<ContentCardInfo title={post.title} author={post.author} episode={post.episode} description={post.description} />
 			</a>
 		</Link>

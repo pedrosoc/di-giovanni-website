@@ -21,7 +21,7 @@ const ContentPage = ({ className, content }) => {
                     </div>
                 </div>
             </div>
-            <div className="img"></div>
+            <hr />
         </div>
 	);
 };

@@ -22,24 +22,20 @@ import styles from "@/constants/styles";
 import services from "@/constants/services";
 
 const img = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-sora-shimazaki-5668494-min%20(1).jpg?alt=media&token=92000055-f85d-4226-b879-6b272891af7d";
-const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%202.png?alt=media&token=47c0a9ed-5b8a-4835-b64e-fc3d05dcee32";
+const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%202%20(1).png?alt=media&token=003660df-545e-4b84-a541-0ae8819207ab";
 const img3 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Screenshot%20from%202021-11-02%2019-21-58.png?alt=media&token=b5aa717b-09c0-4fef-8743-22355368070e";
 
 const Home = ({ className, t, contents, categories }) => {
     return (
 		<div className={className}>
 			<MetaHeader meta={routes.home.meta} />
-            <Header categories={categories} social={social} />
+            <Header relative categories={categories} social={social} />
 
 			<Section first gray backgroundImage={images.background}>
-				<HomeBanner />
-			</Section>
-
-			<Section>
 				{/* <FullContentResume contents={contents} /> */}
-                <div style={{ textAlign: "center" }}>
-                    <h1 style={{ marginBottom: "15px" }}>Confiança, transparência e excelência</h1>
-                    <div style={{ maxWidth: "620px", margin: "15px auto 40px" }}>
+                <div style={{ padding: "160px 40px 60px" }}>
+                    <h1 style={{ maxWidth: "350px", marginBottom: "15px" }}>Confiança, transparência e excelência</h1>
+                    <div style={{ maxWidth: "350px", margin: "15px 0 40px" }}>
                         <span>
                             Di Giovanni Advogados está sediado em Campinas (SP), especializado em Direito Tributário, Societário, Contratual, Propriedade Intelectual e Direito Tributário Internacional.
                         </span>
@@ -55,7 +51,7 @@ const Home = ({ className, t, contents, categories }) => {
                                 padding: "15px 20px",
                                 borderRadius: "50px",
                                 cursor: "pointer",
-                                margin: "0 auto 40px",
+                                margin: "0",
                                 width: "fit-content",
                                 fontSize: "14px"
                             }}
@@ -65,14 +61,6 @@ const Home = ({ className, t, contents, categories }) => {
                     </Link>
                 </div>
             </Section>
-            
-            <Section
-                backgroundImage={img}
-                styleA={{
-                    height: "400px",
-                    backgroundPositionY: "60%"
-                }}
-            />
 
             <Section>
 				{/* <FullContentResume contents={contents} /> */}
@@ -87,7 +75,7 @@ const Home = ({ className, t, contents, categories }) => {
                 </div>
             </Section>
 
-            <Section>
+            <Section colored="#000" styleA={{ color: "#fff" }}>
 				{/* <FullContentResume contents={contents} /> */}
                 <div className="socios" style={{ display: "flex", alignItems: "center" }}>
                     <div className="socios1">
@@ -102,15 +90,14 @@ const Home = ({ className, t, contents, categories }) => {
                             <div 
                                 className="sociosLink"
                                 style={{
-                                    borderColor: "#000",
-                                    backgroundColor: "#000",
-                                    color: "#fff",
+                                    borderColor: "#fff",
+                                    backgroundColor: "#fff",
+                                    color: "#000",
                                     fontFamily: `Georgia, "URW Bookman L", serif`,
                                     fontWeight: "bold",
                                     padding: "15px 20px",
                                     borderRadius: "50px",
                                     cursor: "pointer",
-                                    marginBottom: "40px",
                                     width: "fit-content",
                                     fontSize: "14px"
                                 }}
@@ -125,7 +112,7 @@ const Home = ({ className, t, contents, categories }) => {
                 </div>
             </Section>
             
-            <Section className="contato" colored="#000" styleA={{ color: "#fff" }}>
+            <Section className="contato">
 				{/* <FullContentResume contents={contents} /> */}
                 <div className="socios" style={{ display: "flex", alignItems: "center" }}>
                     <div className="socios1">
@@ -183,6 +170,7 @@ export default withTranslation("common")(styled(Home)`
         & .sociosLink {
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 40px;
         }
     }
     
@@ -198,6 +186,7 @@ export default withTranslation("common")(styled(Home)`
             & .sociosLink {
                 margin-left: 0;
                 margin-right: 0;
+                margin-bottom: 0;
             }
         }
         

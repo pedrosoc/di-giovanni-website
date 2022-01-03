@@ -31,6 +31,7 @@ export default styled(ContentCardInfoHeader)`
     & h3 {
         font-size: 18px;
         margin: 0;
+        height: 47px;
 
         overflow: hidden;
         text-overflow: ellipsis;

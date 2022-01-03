@@ -34,7 +34,7 @@ export default styled(ContentListHeader)`
 
     @media only screen and (min-width: ${styles.breakpoint_large}) {
         & > a {
-            margin-right: 21px;
+            margin-right: 20px;
         }
     }
 
