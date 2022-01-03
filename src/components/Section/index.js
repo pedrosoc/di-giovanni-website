@@ -30,7 +30,7 @@ export default styled(Section)`
     background-color: ${props => props.colored ? props.colored : "transparent"};
     //filter: ${props => props.gray ? "grayscale(1)" : "inherit"};
 
-    background-image: ${props => props.backgroundImage ? `linear-gradient(to left, rgba(117, 19, 93, 0), rgb(6, 11, 14) 60%), url("${props.backgroundImage}")` : "transparent"};
+    background-image: ${props => props.backgroundImage ? `linear-gradient(to left, rgba(255, 255, 255, 0), rgb(6, 11, 14) 60%), url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;
     background-position-x: 70%;
     background-position-y: 40%;
