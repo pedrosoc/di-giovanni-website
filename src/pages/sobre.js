@@ -94,8 +94,8 @@ export default withTranslation("common")(styled(About)`
 			margin-right: 10px;
 		
 			&.link {
-				color: rgba(0, 0, 0, .68);
-				border-bottom: solid 1px rgba(0, 0, 0, .68);
+				color: rgba(240, 240, 240, .68);
+				border-bottom: solid 1px rgba(240, 240, 240, .68);
 			}
 		}
 	}

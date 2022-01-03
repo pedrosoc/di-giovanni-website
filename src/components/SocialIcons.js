@@ -50,7 +50,7 @@ export default styled(SocialIcons)`
 
 	& > div a {
         position: relative;
-        top: 1px;
+        top: -1px;
 	}
 
 	& > div {

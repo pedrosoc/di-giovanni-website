@@ -27,6 +27,7 @@ Header.propTypes = {
 export default styled(Header)`
     position: ${props => props.relative ? "absolute" : "static"};
     width: 100%;
+    background-color: #060b0e;
 
 	font-family: Georgia, "URW Bookman L", serif;
 	box-shadow: ${props => !props.relative ? "0 4px 12px 0 rgba(0, 0, 0, 0.05)" : "0 0 0 0"};

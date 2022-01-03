@@ -20,10 +20,12 @@ import ContentList from "@/features/content/components/ContentList";
 import styled from "styled-components";
 import styles from "@/constants/styles";
 import services from "@/constants/services";
+import containerTypes from "@/constants/containerTypes";
+import contacts from "@/constants/contacts";
 
 const img = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-sora-shimazaki-5668494-min%20(1).jpg?alt=media&token=92000055-f85d-4226-b879-6b272891af7d";
 const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%202%20(1).png?alt=media&token=003660df-545e-4b84-a541-0ae8819207ab";
-const img3 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Screenshot%20from%202021-11-02%2019-21-58.png?alt=media&token=b5aa717b-09c0-4fef-8743-22355368070e";
+const img3 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Screenshot%20from%202022-01-03%2002-35-06.png?alt=media&token=d3629b1d-0218-46c4-9621-9f417f0937dc";
 
 const Home = ({ className, t, contents, categories }) => {
     return (
@@ -33,7 +35,7 @@ const Home = ({ className, t, contents, categories }) => {
 
 			<Section first gray backgroundImage={images.background}>
 				{/* <FullContentResume contents={contents} /> */}
-                <div style={{ padding: "160px 40px 60px" }}>
+                <div style={{ padding: "118px 40px 60px" }}>
                     <h1 style={{ maxWidth: "350px", marginBottom: "15px" }}>Confiança, transparência e excelência</h1>
                     <div style={{ maxWidth: "350px", margin: "15px 0 40px" }}>
                         <span>
@@ -43,17 +45,17 @@ const Home = ({ className, t, contents, categories }) => {
                     <Link href="/atuacao">
                         <div 
                             style={{
-                                borderColor: "#000",
-                                backgroundColor: "#000",
-                                color: "#fff",
+                                borderColor: "#f0f0f0",
+                                backgroundColor: "#f0f0f0",
+                                color: "#060b0e",
                                 fontFamily: `Georgia, "URW Bookman L", serif`,
                                 fontWeight: "bold",
                                 padding: "15px 20px",
-                                borderRadius: "50px",
+                                borderRadius: "5px",
                                 cursor: "pointer",
                                 margin: "0",
                                 width: "fit-content",
-                                fontSize: "14px"
+                                fontSize: "16px"
                             }}
                         >
                             Conheça nossos serviços
@@ -75,7 +77,7 @@ const Home = ({ className, t, contents, categories }) => {
                 </div>
             </Section>
 
-            <Section colored="#000" styleA={{ color: "#fff" }}>
+            <Section>
 				{/* <FullContentResume contents={contents} /> */}
                 <div className="socios" style={{ display: "flex", alignItems: "center" }}>
                     <div className="socios1">
@@ -92,14 +94,14 @@ const Home = ({ className, t, contents, categories }) => {
                                 style={{
                                     borderColor: "#fff",
                                     backgroundColor: "#fff",
-                                    color: "#000",
+                                    color: "#060b0e",
                                     fontFamily: `Georgia, "URW Bookman L", serif`,
                                     fontWeight: "bold",
                                     padding: "15px 20px",
-                                    borderRadius: "50px",
+                                    borderRadius: "5px",
                                     cursor: "pointer",
                                     width: "fit-content",
-                                    fontSize: "14px"
+                                    fontSize: "16px"
                                 }}
                             >
                                 Conheça nossos sócios
@@ -111,24 +113,13 @@ const Home = ({ className, t, contents, categories }) => {
                     </div>
                 </div>
             </Section>
-            
-            <Section className="contato">
+
+            <Section>
 				{/* <FullContentResume contents={contents} /> */}
-                <div className="socios" style={{ display: "flex", alignItems: "center" }}>
-                    <div className="socios1">
-                        <h1 style={{ marginBottom: "15px" }}>Contato</h1>
-                        <div style={{ maxWidth: "400px", margin: "15px auto 40px" }}>
-                            <p>
-                                <b>Endereço:</b> Edifício Easy Office - R. Barata Ribeiro, 79 - Sala 1106 - Vila Itapura, Campinas - SP, 13015-097
-                            </p>
-                            <p>
-                                <b>Telefone:</b> (19) 3296-0715
-                            </p>
-                        </div>
-                    </div>
-                    <div className="socios2">
-                        <img src={img3} style={{ width: "100%" }} />
-                    </div>
+                <div style={{ textAlign: "center" }}>
+                    <h1 style={{ marginBottom: "40px" }}>Contato</h1>
+                    <ContentList posts={contacts}/>
+                    <img src={img3} style={{ marginTop: "40px", width: "100%" }} />
                 </div>
             </Section>
 
@@ -152,10 +143,10 @@ export default withTranslation("common")(styled(Home)`
     & .contato input {
         background-color: #fff !important;
         border-color: #fff !important;
-        color: #000 !important;
+        color: #f0f0f0 !important;
     }
 
-    & .socios {
+    & .socios, & .contacts {
         flex-direction: column;
         align-items: center;
         
@@ -164,7 +155,7 @@ export default withTranslation("common")(styled(Home)`
         }
     }
     
-    & .socios1 {
+    & .socios1, & .contacts {
         text-align: center;
 
         & .sociosLink {
@@ -181,7 +172,7 @@ export default withTranslation("common")(styled(Home)`
         
         & .socios1 {
             text-align: left;
-            width: 30%;
+            width: 35%;
 
             & .sociosLink {
                 margin-left: 0;

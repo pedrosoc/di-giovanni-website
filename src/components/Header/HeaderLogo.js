@@ -27,7 +27,7 @@ export default styled(HeaderContent)`
     // REVIEW: Testar tirar fonte
     position: relative;
     top: -5px;
-	color: #000;
+	color: #f0f0f0;
 	text-decoration: none;
     display: flex;
     align-items: center;

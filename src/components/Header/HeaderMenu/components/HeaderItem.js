@@ -24,7 +24,7 @@ HeaderItem.propTypes = {
 
 export default styled(HeaderItem)`
 	text-decoration: none;
-    color: #000;
+    color: #f0f0f0;
 	font-weight: 600;
     margin-bottom: 15px;
 

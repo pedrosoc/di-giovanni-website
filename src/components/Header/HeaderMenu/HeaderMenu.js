@@ -10,18 +10,10 @@ import HeaderMenuDesktop from "./desktop/HeaderMenuDesktop";
 import ContentDetailsInfoTitle from "@/features/content/components/ContentDetails/ContentDetailsSerie/ContentDetailsInfo/ContentDetailsInfoTitle";
 
 const HeaderMenu = ({ contents, social }) => {
-    const isMobile = useMediaQuery({
-		query: `(max-device-width: 800px)`
-	});
-    console.log(isMobile);
-	return (
+    return (
 		<Fragment>
-			<MediaQuery maxDeviceWidth={styles.breakpoint_large_max}>
-				<HeaderMenuMobile contents={contents} social={social} />
-			</MediaQuery>
-			<MediaQuery minDeviceWidth={styles.breakpoint_large}>
-				<HeaderMenuDesktop contents={contents} social={social}  />
-			</MediaQuery>
+			<HeaderMenuMobile contents={contents} social={social} />
+			<HeaderMenuDesktop contents={contents} social={social}  />
 		</Fragment>
 	);
 };
