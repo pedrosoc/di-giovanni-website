@@ -26,19 +26,19 @@ Section.propTypes = {
 };
 
 export default styled(Section)`
-    height: ${props => props.backgroundImage ? "500px" : "auto"};
+    height: ${props => props.backgroundImage ? "400px" : "auto"};
     background-color: ${props => props.colored ? props.colored : "transparent"};
     filter: ${props => props.gray ? "grayscale(1)" : "inherit"};
 
     background-image: ${props => props.backgroundImage ? `url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;
     background-position-x: center;
-    background-position-y: 30%;
+    background-position-y: 40%;
 
     margin: ${props => props.first ? 0 : styles.container_margin_medium} 0 ${styles.container_margin_medium};
 
     @media only screen and (min-width: ${styles.breakpoint_medium}) {
-        margin: ${props => props.first ? 0 : styles.container_margin_large} 0 ${styles.container_margin_large};
+        margin: ${props => props.first ? 0 : styles.container_margin_large} 0 ${styles.container_margin_medium};
     }
 
 `;

@@ -25,7 +25,7 @@ const About = ({ className, t, categories }) => {
 					<div>
 						<h5>{t("about.title")}</h5>
 						{/*<p>{t("about.description")}</p>*/}
-						<p>A empresa Di Giovanni Sociedade De Advogados que tem como razão social Di Giovanni Sociedade De Advogados foi fundada em 18/09/2017 e está cadastrada na Solutudo no segmento de Advocacias com o CNPJ 28.702.861/0001-30. No mercado, a empresa está localizada no Edifício Easy Office, Rua Barata Ribeiro, nº 79 - Sala 1106, no bairro Vila Itapura, Campinas - SP, 13015-097. A empresa Di Giovanni Sociedade De Advogados está cadastrada na Receita Federal sob o CNAE 6911-7/01 com atividade fim de Serviços Advocatícios.</p>
+						<p>Di Giovanni Advogados nasceu de um sonho de fazer o direito uma maneira de melhorar a vida das pessoas, por meio do crescimento sustentável dos negócios, das empresas, do diálogo. Os sócios fundadores acreditam que se as empresa tiverem uma ambiente seguro para investirem e crescerem poderão agregar ainda mais valor na sociedade, melhorando a economia e as oportunidades de evolução social. Oficialmente  Di Giovanni Advogados foi fundado em 18/09/2017 (CNPJ 28.702.861/0001-30). Mas muito anos dessa data seus sócios tinham em seus corações a semente de transformar o direito em instrumento de viabilização de crescimento econômico e social. A sede da empresa está localizada no Edifício Easy Office, Rua Barata Ribeiro, nº 79 - Sala 1106, no bairro Vila Itapura, Campinas - SP, 13015-097. Local de fácil acesso e no coração da Região Metropolitana de Campinas de onde vem projetando os negócios de seus clientes para o mundo todo.</p>
 					</div>
                     {/*<div className="second">
 						<h4>{t("about.help.sponsorTitle")}</h4>

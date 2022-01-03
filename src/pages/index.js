@@ -41,7 +41,7 @@ const Home = ({ className, t, contents, categories }) => {
                     <h1 style={{ marginBottom: "15px" }}>Confiança, transparência e excelência</h1>
                     <div style={{ maxWidth: "620px", margin: "15px auto 40px" }}>
                         <span>
-                            A Di Giovanni (CNPJ 28.702.861/0001-30) é uma sociedade de advogados, localizada em Campinas (SP), especializada em direito tributário, societário e contratual.
+                            Di Giovanni Advogados está sediado em Campinas (SP), especializado em Direito Tributário, Societário, Contratual, Propriedade Intelectual e Direito Tributário Internacional.
                         </span>
                     </div>
                     <Link href="/atuacao">
