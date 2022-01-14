@@ -27,10 +27,10 @@ export default styled(ContentCardImage)`
     background-color: ${props => props.color ? props.color : "#fff"};
 
     @media only screen and (min-width: ${styles.breakpoint_medium}) {
-        height: ${props => props.spotlight ? "329px" : "10px"};
+       // height: ${props => props.spotlight ? "329px" : "10px"};
     }
 
     @media only screen and (min-width: ${styles.container_large}) {
-        height: ${props => props.spotlight ? "564px" : "10px"};
+        // height: ${props => props.spotlight ? "564px" : "10px"};
     }
 `;

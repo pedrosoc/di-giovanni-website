@@ -7,10 +7,10 @@ import ContentCard from "../ContentCard";
 
 import styles from "@/constants/styles";
 
-const ContentListHeader = ({ className, posts, max }) => {
+const ContentListHeader = ({ className, posts, max, spotlight }) => {
 	return (
 		<div className={className}>
-			{posts.map(p => <ContentCard key={p.id} post={p} max={max} />)}
+			{posts.map(p => <ContentCard key={p.id} post={p} max={max} spotlight={spotlight} />)}
 		</div>
 	);
 }
@@ -19,7 +19,8 @@ ContentListHeader.propTypes = {
 	className: PropTypes.string,
 	title: PropTypes.string,
 	posts: PropTypes.array,
-    max: PropTypes.number
+    max: PropTypes.number,
+    spotlight: PropTypes.bool
 };
 
 export default styled(ContentListHeader)`

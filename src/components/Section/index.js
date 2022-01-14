@@ -32,8 +32,8 @@ export default styled(Section)`
 
     background-image: ${props => props.backgroundImage ? `linear-gradient(to left, rgba(6, 11, 14, 0), rgb(6, 11, 14) 60%), url("${props.backgroundImage}")` : "transparent"};
     background-size: cover;
-    background-position-x: 70%;
-    background-position-y: 40%;
+    background-position-x: 50%;
+    background-position-y: 70%;
 
     margin: ${props => props.first ? 0 : styles.container_margin_medium} 0 ${styles.container_margin_medium};
 

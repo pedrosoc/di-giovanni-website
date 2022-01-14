@@ -73,7 +73,7 @@ const Home = ({ className, t, contents, categories }) => {
                             A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo. 
                         </span>
                     </div>
-                    <ContentList posts={services}/>
+                    <ContentList posts={services} max={2} spotlight />
                 </div>
             </Section>
 

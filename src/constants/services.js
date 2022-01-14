@@ -31,9 +31,9 @@ const services = [
         //color: "#80502a",
         //color: "#000",
         color: "rgba(240,240,240,.68)",
-        title: "Consultoria Tributária, due diligence",
+        title: "Consultoria Tributária, Planejamentos Tributários, Tax Compliance e Due Diligence",
         description: "O escritório atua como suporte para a construção do negócio e e busca identificar soluções seguras e mais econômicas para seus clientes. Os sócios tem habilidades para entender o setor de atuação de seus clientes e com isso atuar lado a lado em cada etapa do negócio. Para tal usam uma linguagem objetiva, sem perder a profundidade na análise.",
-        text: "O escritório atua como suporte para a construção do negócio e e busca identificar soluções seguras e mais econômicas para seus clientes. Os sócios tem habilidades para entender o setor de atuação de seus clientes e com isso atuar lado a lado em cada etapa do negócio. Para tal usam uma linguagem objetiva, sem perder a profundidade na análise."
+        text: "O escritório atua como suporte para a construção do negócio e e busca identificar soluções seguras e mais econômicas para seus clientes. Os sócios tem habilidades para entender o setor de atuação de seus clientes e com isso atuar lado a lado em cada etapa do negócio. Para tal usam uma linguagem objetiva, sem perder a profundidade na análise.<br/><br/>Planejamentos Tributários Nacionais e Internacionais. O escritório atua como suporte para a construção do negócio e busca identificar soluções seguras e mais econômicas para seus clientes. Os sócios tem habilidades para entender o setor de atuação de seus clientes e com isso atuar lado a lado em cada etapa do negócio. Para tal usam uma linguagem objetiva, sem perder a profundidade na análise. Identifica as alterações tributárias nas leis e passa a seus clientes orientação segura com base nos entendimentos do Fisco e aponta as possibilidade de ganho com o entendimento dos tribunais. E ainda identifica os possíveis \"gaps\" da rotina tributária do cliente apontando o caminho correto para evitar autuações."
     },
     {
         id: "4",
@@ -61,9 +61,9 @@ const services = [
         //color: "#cdcdcd",
         //color: "#000",
         color: "rgba(240,240,240,.68)",
-        title: "Planejamentos tributários nacionais e internacionais",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel eleifend enim. Sed dictum id justo quis blandit. Suspendisse potenti. Vivamus at dui felis.",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel eleifend enim. Sed dictum id justo quis blandit. Suspendisse potenti. Vivamus at dui felis. Morbi sodales, erat eget commodo faucibus, urna tortor sodales nibh, sit amet eleifend orci lectus quis magna. Ut pretium aliquam lorem, a cursus sem vestibulum ac. Sed vulputate, massa ut euismod eleifend, sem eros mattis nulla, sit amet porta ex felis ut diam. <br/><br/>Aenean blandit feugiat ante, a faucibus lacus feugiat varius. Suspendisse tincidunt luctus fringilla. Vivamus sed ipsum ut quam commodo sagittis. Proin posuere sit amet odio eu molestie. Mauris ullamcorper mi a elit posuere dictum. Sed id urna vehicula, mattis libero non, rutrum mauris. Cras eu dolor vitae ex aliquam bibendum in nec augue. Ut sit amet faucibus nulla. Cras magna mauris, lacinia et ex ut, ultricies tincidunt dolor. Etiam viverra faucibus ex, id pharetra lorem ornare in. Quisque sit amet semper tortor. Donec rhoncus diam erat, et lacinia diam mattis id. Fusce cursus diam quis fermentum porta. Maecenas rutrum ipsum rutrum suscipit egestas. <br/><br/>Phasellus venenatis tortor orci, ut feugiat justo efficitur sit amet. Vivamus cursus semper tellus, eget sodales quam tincidunt fermentum. Aenean elementum lobortis felis, eget vehicula lorem sagittis sit amet. Etiam sit amet erat consequat, congue nulla id, iaculis nunc. Donec eleifend libero sit amet turpis volutpat lobortis. Vivamus cursus enim in libero maximus finibus. Pellentesque accumsan laoreet blandit. Phasellus dolor felis, malesuada sit amet sapien vel, congue condimentum tellus. Nulla imperdiet tempor lectus. Etiam fringilla gravida risus id molestie. Phasellus ultrices sed arcu ac semper."
+        title: "Direito Tributário Internacional",
+        description: "Di Giovanni Advogados realiza planejamento tributários internacionais, analisando a melhor opção de negócios na America Latina, nos Estados Unidos e na Europa.",
+        text: "Di Giovanni Advogados realiza planejamento tributários internacionais, analisando a melhor opção de negócios na America Latina, nos Estados Unidos e na Europa."
     }
 ];
 

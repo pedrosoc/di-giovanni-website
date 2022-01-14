@@ -11,8 +11,8 @@ const HeaderContent = ({ className }) => {
 		<Link href="/">
 			<a className={className}>
                 <div>
-                    <h2> DI GIOVANNI </h2>
-                    <h6> SOCIEDADE DE ADVOGADOS </h6>
+                    <h2> Di Giovanni </h2>
+                    <h6> Advogados </h6>
                 </div>
             </a>
 		</Link>
@@ -36,15 +36,23 @@ export default styled(HeaderContent)`
         position: relative;
         top: 5px;
         margin-left: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     & > div > h2 {
         font-family: Georgia, "URW Bookman L", serif;
+        font-style: italic;
     }
     
     & > div > h6 {
         font-family: Georgia, "URW Bookman L", serif;
         position: relative;
-        top: -5px;
+        top: 0px;
+        font-size: 16px;
+        color: rgba(240,240,240,.68);
     }
 `;
