@@ -28,11 +28,11 @@ export default withTranslation("common")(styled(Footer)`
     flex-direction: column;
 
 	font-family: Georgia, "URW Bookman L", serif;
-    color: rgba(240,240,240,.68);
+    color: rgba(6, 11, 14, .68);
     font-size: 12px;
     
     padding: ${styles.container_margin_small};
-    border-top: 1px solid rgba(240, 240, 240, 0.20);
+    border-top: 1px solid rgba(6, 11, 14, .20);
 
     @media only screen and (min-width: ${styles.breakpoint_medium}) {
         flex-direction: row;
@@ -40,7 +40,7 @@ export default withTranslation("common")(styled(Footer)`
         & > span {
             margin-left: 10px;
             padding-left: 10px;
-            border-left: 1px solid rgba(240, 240, 240, 0.20);
+            border-left: 1px solid rgba(6, 11, 14, .20);
         }
 	}
 `);

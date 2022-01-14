@@ -26,7 +26,7 @@ ContentCardInfoHeader.propTypes = {
 export default styled(ContentCardInfoHeader)`
     display: flex;
     flex-direction: column;
-    color: #f0f0f0;
+    color: rgb(6, 11, 14);
 
     & h3 {
         font-size: 18px;

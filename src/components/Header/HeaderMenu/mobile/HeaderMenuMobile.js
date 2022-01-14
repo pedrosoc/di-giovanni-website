@@ -12,7 +12,7 @@ import styles from "@/constants/styles";
 const HeaderMenuMobile = ({ className, contents, social }) => {
 	return (
 		<Modal
-			trigger={<SVG className={className} name="menu" width="25" fill="#f0f0f0" />}
+			trigger={<SVG className={className} name="menu" width="25" fill="rgb(6, 11, 14)" />}
 			content={<HeaderMenuMobileContent social={social} contents={contents} />}
 		/>
 	);

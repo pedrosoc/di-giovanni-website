@@ -27,7 +27,7 @@ export default styled(HeaderContent)`
     // REVIEW: Testar tirar fonte
     position: relative;
     top: -5px;
-	color: #f0f0f0;
+	color: rgb(6, 11, 14);
 	text-decoration: none;
     display: flex;
     align-items: center;
@@ -53,6 +53,6 @@ export default styled(HeaderContent)`
         position: relative;
         top: 0px;
         font-size: 16px;
-        color: rgba(240,240,240,.68);
+        color: rgba(6, 11, 14, .68);
     }
 `;

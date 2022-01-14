@@ -17,7 +17,7 @@ ContentCardInfoDescription.propTypes = {
 export default styled(ContentCardInfoDescription)`
     font-size: 16px;
     margin-bottom: 0;
-    color: rgba(240, 240, 240, .68);
+    color: rgba(6, 11, 14, .68);
 
 	overflow: hidden;
 	text-overflow: ellipsis;

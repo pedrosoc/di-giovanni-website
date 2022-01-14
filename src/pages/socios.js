@@ -182,8 +182,8 @@ export default withTranslation("common")(styled(About)`
 			margin-right: 10px;
 		
 			&.link {
-				color: rgba(240, 240, 240, .68);
-				border-bottom: solid 1px rgba(240, 240, 240, .68);
+				color: rgba(6, 11, 14, .68);
+				border-bottom: solid 1px rgba(6, 11, 14, .68);
 			}
 		}
 	}

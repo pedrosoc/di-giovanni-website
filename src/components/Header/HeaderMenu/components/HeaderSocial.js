@@ -21,7 +21,7 @@ const HeaderSocial = ({ className, t, social }) => {
 			uuid="header"
 			size={"20"}
 			distance="9px"
-			fill="#f0f0f0"
+			fill="rgb(6, 11, 14)"
 			socialList={social}
 		/>
 	);
