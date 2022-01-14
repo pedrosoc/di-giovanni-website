@@ -35,7 +35,7 @@ export default withTranslation("common")(styled(HeaderItems)`
 
 	@media only screen and (min-width: ${styles.breakpoint_large}) {
 		flex-direction: row;
-		border-right: 2px solid rgb(6, 11, 14);
+		border-right: 2px solid rgb(254, 254, 254);
 
 		margin: 0;
 		padding-top: 0;

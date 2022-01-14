@@ -18,7 +18,7 @@ const ContentDetailsInfoSocial = ({ t, post }) => {
 			title={t("contentPost.avaiableFor")}
 			size="50"
 			distance="10px"
-			fill="#ffffff"
+			fill="#000e2c"
 			socialList={socialList}
 		/>
 	);

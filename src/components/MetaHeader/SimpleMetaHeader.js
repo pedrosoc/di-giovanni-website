@@ -32,7 +32,7 @@ const CompleteMetaHeader = ({ t, meta }) => (
         <link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/favicon-152.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/favicon-180.png" />
 
-        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileColor" content="#000e2c" />
         <meta name="msapplication-TileImage" content="/static/favicons/favicon-144.png" />
         <meta name="msapplication-config" content="/static/favicons/browserconfig.xml" />
     </Head>

@@ -42,7 +42,7 @@ ContentCard.propTypes = {
 export default styled(ContentCard)`
 	width: 100%;
     margin-bottom: 50px;
-    box-shadow: ${props => props.post.type === "text" ? "0" : "0 1px 3px 0 rgb(6, 11, 14), 0 0 0 1px rgb(6, 11, 14)"};
+    box-shadow: ${props => props.post.type === "text" ? "0" : "0 1px 3px 0 rgb(254, 254, 254), 0 0 0 1px rgb(254, 254, 254)"};
     border-radius: 5px;
     font-size: 14px;
     text-decoration: none;

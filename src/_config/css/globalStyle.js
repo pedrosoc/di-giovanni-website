@@ -7,8 +7,8 @@ const GlobalStyle = createGlobalStyle`
 
   html {
     font-family: Georgia, "URW Bookman L", serif;
-    color: rgb(6, 11, 14);
-    background-color: #ffffff;
+    color: rgb(254, 254, 254);
+    background-color: #000e2c;
     margin: 0;
     padding: 0;
   }
@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
 
     text-decoration: none;
-    color: rgba(6, 11, 14, .68);
+    color: rgba(240, 240, 240, 0.68);
   }
 `;
 

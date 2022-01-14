@@ -28,7 +28,7 @@ export default withTranslation("common")(styled(Footer)`
     flex-direction: column;
 
 	font-family: Georgia, "URW Bookman L", serif;
-    color: rgba(6, 11, 14, .68);
+    color: rgba(240, 240, 240, 0.68);
     font-size: 12px;
     
     padding: ${styles.container_margin_small};

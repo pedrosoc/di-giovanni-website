@@ -45,9 +45,9 @@ const Home = ({ className, t, contents, categories }) => {
                     <Link href="/atuacao">
                         <div 
                             style={{
-                                borderColor: "rgb(6, 11, 14)",
-                                backgroundColor: "rgb(6, 11, 14)",
-                                color: "#ffffff",
+                                borderColor: "rgb(254, 254, 254)",
+                                backgroundColor: "rgb(254, 254, 254)",
+                                color: "#000e2c",
                                 fontFamily: `Georgia, "URW Bookman L", serif`,
                                 fontWeight: "bold",
                                 padding: "15px 20px",
@@ -94,7 +94,7 @@ const Home = ({ className, t, contents, categories }) => {
                                 style={{
                                     borderColor: "#fff",
                                     backgroundColor: "#fff",
-                                    color: "#ffffff",
+                                    color: "#000e2c",
                                     fontFamily: `Georgia, "URW Bookman L", serif`,
                                     fontWeight: "bold",
                                     padding: "15px 20px",
@@ -143,7 +143,7 @@ export default withTranslation("common")(styled(Home)`
     & .contato input {
         background-color: #fff !important;
         border-color: #fff !important;
-        color: rgb(6, 11, 14) !important;
+        color: rgb(254, 254, 254) !important;
     }
 
     & .socios, & .contacts {

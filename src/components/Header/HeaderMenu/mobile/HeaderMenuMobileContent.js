@@ -31,5 +31,5 @@ export default styled(HeaderMenuMobile)`
     height: 100%;
 	padding: 0 ${styles.container_margin_medium};
 
-    background-color: #ffffff;
+    background-color: #000e2c;
 `;
