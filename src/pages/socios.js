@@ -86,7 +86,7 @@ const About = ({ className, t, categories }) => {
 						<span className="email"><b>Email:</b> elainedigiovanni@digiovanni-law.com</span>
                         <br/>
                         <br/>
-                        <div className="img" style={{ backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%205.png?alt=media&token=1affceb0-9b0c-413a-8a99-67bd38260033")`}} />
+                        <div className="img" style={{ backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%205%20(1).png?alt=media&token=3c917d19-ae49-4e58-96c9-be44cf8df213")`}} />
 						{/*<p>{t("about.description")}</p>*/}
 						<br/>
                         <div>

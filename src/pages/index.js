@@ -24,7 +24,7 @@ import containerTypes from "@/constants/containerTypes";
 import contacts from "@/constants/contacts";
 
 const img = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/pexels-sora-shimazaki-5668494-min%20(1).jpg?alt=media&token=92000055-f85d-4226-b879-6b272891af7d";
-const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%202%20(1).png?alt=media&token=003660df-545e-4b84-a541-0ae8819207ab";
+const img2 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Group%202.png?alt=media&token=47c0a9ed-5b8a-4835-b64e-fc3d05dcee32";
 const img3 = "https://firebasestorage.googleapis.com/v0/b/di-giovanni-website.appspot.com/o/Screenshot%20from%202022-01-03%2002-35-06.png?alt=media&token=d3629b1d-0218-46c4-9621-9f417f0937dc";
 
 const Home = ({ className, t, contents, categories }) => {
