@@ -27,27 +27,6 @@ const About = ({ className, t, categories }) => {
 						{/*<p>{t("about.description")}</p>*/}
 						<p>Di Giovanni Advogados nasceu de um sonho de fazer o direito uma maneira de melhorar a vida das pessoas, por meio do crescimento sustentável dos negócios, das empresas, do diálogo. Os sócios fundadores acreditam que se as empresa tiverem uma ambiente seguro para investirem e crescerem poderão agregar ainda mais valor na sociedade, melhorando a economia e as oportunidades de evolução social. Oficialmente  Di Giovanni Advogados foi fundado em 18/09/2017 (CNPJ 28.702.861/0001-30). Mas muito anos dessa data seus sócios tinham em seus corações a semente de transformar o direito em instrumento de viabilização de crescimento econômico e social. A sede da empresa está localizada no Edifício Easy Office, Rua Barata Ribeiro, nº 79 - Sala 1106, no bairro Vila Itapura, Campinas - SP, 13015-097. Local de fácil acesso e no coração da Região Metropolitana de Campinas de onde vem projetando os negócios de seus clientes para o mundo todo.</p>
 					</div>
-                    {/*<div className="second">
-						<h4>{t("about.help.sponsorTitle")}</h4>
-						<p>{t("about.help.sponsor")}</p>
-                    </div>
-					<div className="second">
-						<h4>{t("about.help.title")}</h4>
-						<p>{t("about.help.description")}</p>
-						<p className="list">
-							<span>{t("about.help.link.description")}</span>
-							<a href="https://apoia.se/ajudeomacacast" target="_blank" rel="noopener noreferrer">
-								<span className="arrow">-</span>
-								<span className="underline">{t("about.help.link.single")}</span>
-								<span className="link">{t("about.help.link.singleLink")}</span>
-							</a>
-							<a href="https://apoia.se/macacast" target="_blank" rel="noopener noreferrer">
-								<span className="arrow">-</span>
-								<span className="underline">{t("about.help.link.monthly")}</span>
-								<span className="link">{t("about.help.link.monthlyLink")}</span>
-							</a>
-						</p>
-                    </div>*/}
 				</div>
 			</Section>
 

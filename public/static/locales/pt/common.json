@@ -31,12 +31,12 @@
             "link": {
                 "description": "Você pode fazer a sua doação de duas formas:",
                 "monthly": "Mensalmente:",
-                "monthlyLink": "apoia.se/macacast",
+                "monthlyLink": "",
                 "single": "Avulsa:",
-                "singleLink": "apoia.se/ajudeomacacast"
+                "singleLink": ""
             },
-            "sponsorTitle": "Anuncie no Macacast",
-            "sponsor": "Se você deseja ser um parceiro do projeto, entre em contato conosco por meio de nossas plataformas digitais. Temos certeza de que, com a audiência que temos, a parceria renderá muitos frutos para sua empresa."
+            "sponsorTitle": "",
+            "sponsor": ""
         },
         "meta": {
             "title": "Sobre | Di Giovanni",

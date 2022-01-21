@@ -28,27 +28,6 @@ const Servicos = ({ className, t, categories }) => {
                     {/*<p>{t("about.description")}</p>*/}
                     <p>A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo.</p>
                     <ContentList posts={services} max={2} />
-                    {/*<div className="second">
-						<h4>{t("about.help.sponsorTitle")}</h4>
-						<p>{t("about.help.sponsor")}</p>
-                    </div>
-					<div className="second">
-						<h4>{t("about.help.title")}</h4>
-						<p>{t("about.help.description")}</p>
-						<p className="list">
-							<span>{t("about.help.link.description")}</span>
-							<a href="https://apoia.se/ajudeomacacast" target="_blank" rel="noopener noreferrer">
-								<span className="arrow">-</span>
-								<span className="underline">{t("about.help.link.single")}</span>
-								<span className="link">{t("about.help.link.singleLink")}</span>
-							</a>
-							<a href="https://apoia.se/macacast" target="_blank" rel="noopener noreferrer">
-								<span className="arrow">-</span>
-								<span className="underline">{t("about.help.link.monthly")}</span>
-								<span className="link">{t("about.help.link.monthlyLink")}</span>
-							</a>
-						</p>
-                    </div>*/}
 				</div>
 			</Section>
 
