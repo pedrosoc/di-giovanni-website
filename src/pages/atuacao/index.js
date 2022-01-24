@@ -26,7 +26,7 @@ const Servicos = ({ className, t, categories }) => {
 				<div className={className}>
                     <h5>Nossa atuação</h5>
                     {/*<p>{t("about.description")}</p>*/}
-                    <p>A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo.</p>
+                    <p>Di Giovanni possui advogados preparados para atuar nos principais ramos de direito empresarial especialmente em Direito Tributário,  Societário e Contratual e Internacional.</p>
                     <ContentList posts={services} max={2} />
 				</div>
 			</Section>

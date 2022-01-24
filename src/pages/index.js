@@ -67,10 +67,10 @@ const Home = ({ className, t, contents, categories }) => {
             <Section>
 				{/* <FullContentResume contents={contents} /> */}
                 <div style={{ textAlign: "center" }}>
-                    <h1 style={{ marginBottom: "15px" }}>Nossas especialidades</h1>
+                    <h1 style={{ marginBottom: "15px" }}>Especialidades</h1>
                     <div style={{ maxWidth: "620px", margin: "15px auto 40px" }}>
                         <span>
-                            A Di Giovanni possui advogados preparados para atuar nos principais ramos de direito tributário, societário e contratual. Conheça mais sobre cada uma das nossas especialidades abaixo. 
+                            Di Giovanni possui advogados preparados para atuar nos principais ramos de direito empresarial especialmente em Direito Tributário,  Societário e Contratual e Internacional. 
                         </span>
                     </div>
                     <ContentList posts={services} max={2} spotlight />
