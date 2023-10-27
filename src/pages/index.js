@@ -84,7 +84,7 @@ const Home = ({ className, t, contents, categories }) => {
                         <h1 style={{ marginBottom: "15px" }}>Nossos sócios</h1>
                         <div style={{ maxWidth: "400px", margin: "15px auto 40px" }}>
                             <span>
-                                Conheça Ricardo e Elaine, os sócios fundadores da bem sucedida sociedade de advogados, Di Giovanni. 
+                                Conheça Elaine, a sócia fundadora da bem sucedida sociedade de advogados, Di Giovanni. 
                             </span>
                         </div>
 

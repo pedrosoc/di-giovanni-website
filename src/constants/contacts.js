@@ -21,13 +21,13 @@ const contacts = [
     },
     {
         id: "3",
-        route: "mailto:ricardodigiovanni@digiovanni-law.com",
+        route: "mailto:elainedigiovanni@digiovanni-law.com",
         //color: "#80502a",
         //color: "#000",
         color: "rgba(240, 240, 240, 0.68)",
         title: "E-mails",
-        description: "ricardodigiovanni@digiovanni-law.com elainedigiovanni@digiovanni-law.com",
-        text: "ricardodigiovanni@digiovanni-law.com elainedigiovanni@digiovanni-law.com"
+        description: "elainedigiovanni@digiovanni-law.com",
+        text: "elainedigiovanni@digiovanni-law.com"
     }
 ];
 
