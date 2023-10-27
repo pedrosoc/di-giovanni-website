@@ -79,7 +79,7 @@ const Home = ({ className, t, contents, categories }) => {
 
             <Section>
 				{/* <FullContentResume contents={contents} /> */}
-                <div className="socios" style={{ display: "flex", alignItems: "center" }}>
+                <div className="socios" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <div className="socios1">
                         <h1 style={{ marginBottom: "15px" }}>Nossos sócios</h1>
                         <div style={{ maxWidth: "400px", margin: "15px auto 40px" }}>
@@ -109,7 +109,7 @@ const Home = ({ className, t, contents, categories }) => {
                         </Link>
                     </div>
                     <div className="socios2">
-                        <img src={img2} style={{ width: "100%" }} />
+                        <img src={img2} style={{ width: "100%", maxWidth: "345px" }} />
                     </div>
                 </div>
             </Section>
@@ -164,6 +164,10 @@ export default withTranslation("common")(styled(Home)`
             margin-bottom: 40px;
         }
     }
+
+    & .socios2 {
+        text-align: center;
+    }
     
     @media only screen and (min-width: ${styles.breakpoint_large}) {
         & .socios {
@@ -182,8 +186,8 @@ export default withTranslation("common")(styled(Home)`
         }
         
         & .socios2 {
-            width: 70%;
-            margin-left: 10%;
+            width: 30%;
+            margin-left: 15%;
         }
 	}
 `);
